@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 5px;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/foto-gratis/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular_1258-28311.jpg?w=900&t=st=1661704255~exp=1661704855~hmac=8c1c1e84d52bd652b422935d319a28b648ba3e597cb0f202f9acd1f4fabb8fc3")
+    
+}
+header{
+    background-color: #434388b0;
+}
+section h1 {
+    color: red;
+}
+section p {
+    color: rgb(0, 124, 128);
+    background-color: antiquewhite;
+}
+.link{
+    text-decoration: none;
+    padding: 5px;
+    color: #610a0a;
+    background-color: rgba(192, 192, 70, 0.614);
+}
+#navBar{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.texto {
+    color:blue;
+    text-align: center;
+    font-family: 'Rubik Iso';
+    line-height: 2;
+    background-image: url("../images/popourri.webp")
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+}
+.mastexto{ 
+    text-align: right;
+    font-family: monospace;
+    text-decoration: overline;
+    line-height: 4;
+}
+.loren{
+    text-align: center;
+    font-style: oblique;
+    line-height: 2;
+    font-weight: 800;
+    background-image: url("../images/popourri.webp");
+    background-repeat: repeat-y;
+    background-position: center;
+}
+.parallas, .main, .texto{margin:0 auto}
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:30rem;
+	max-width: 100%;
+	position: relative
+}
+.fuentes{
+    font-family: rubikdistressed;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
